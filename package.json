@@ -1,0 +1,17 @@
+{
+  "name": "proyek-akhir",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "concurrently": "^9.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "start-all": "concurrently -k -s cmd \"bun run dev --prefix ./frontend\" \"bun start --prefix ./backends/*\"",
+    "dev-all": "concurrently -k -s cmd \"bun run dev --prefix ./frontend\" \"bun dev --prefix ./backends/*\""
+  },
+  "type": "module"
+}

@@ -13,4 +13,15 @@ A Heavy Equipment Management System developed for the final project of the Infor
   - The frontend repository can be found [here](https://github.com/muhammad-arief-rahman/proyek-akhir_frontend)
   - As of the last commit, 1 backend services has been developed which are:
     - [Authentication Service](https://github.com/muhammad-arief-rahman/proyek-akhir_auth-service)
+- An API Gateway is used to unify the backend services.
+- Make sure the project structure is as follows:
+  ```
+  .
+  ├── backends
+  │   ├── gateway (Non-service)
+  │   ├── auth
+  │   ├── units
+  │   └── ...
+  ├── frontend
+  ```
   

@@ -1,2 +1,4 @@
 backends
 frontend
+node_modules
+bun.lock
