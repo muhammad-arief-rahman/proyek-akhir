@@ -1,0 +1,1 @@
+cd backends\gateway && bun dev

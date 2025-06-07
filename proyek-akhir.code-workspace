@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "backends/auth"
+		},
+		{
+			"path": "backends/common"
+		},
+		{
+			"path": "backends/gateway"
+		},
+		{
+			"path": "backends/unit"
+		}
+	],
+	"settings": {}
+}

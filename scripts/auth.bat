@@ -1,0 +1,1 @@
+cd backends\auth && bun dev
