@@ -11,16 +11,22 @@ A Heavy Equipment Management System developed for the final project of the Infor
 - This repository is to orchestrate the backend services and the frontend.
 - The frontend and backend repositories are managed separately.
   - The frontend repository can be found [here](https://github.com/muhammad-arief-rahman/proyek-akhir_frontend)
-  - As of the last commit, 1 backend services has been developed which are:
+  - As of the last commit, 4 backend services has been developed which are:
     - [Authentication Service](https://github.com/muhammad-arief-rahman/proyek-akhir_auth-service)
-- An API Gateway is used to unify the backend services.
+    - [Unit Service](https://github.com/muhammad-arief-rahman/proyek-akhir_unit-service)
+    - [Customer Service](https://github.com/muhammad-arief-rahman/proyek-akhir_customer-service)
+    - [Maintenance Service](https://github.com/muhammad-arief-rahman/proyek-akhir_maintenance-service)
+  - Along with the other services that orchestrate the backend services:
+    - [Gateway Service](https://github.com/muhammad-arief-rahman/proyek-akhir_gateway)
+    - [Aggregator Service](https://github.com/muhammad-arief-rahman/proyek-akhir_aggregator-service)
 - Make sure the project structure is as follows:
   ```
   .
   ├── backends
-  │   ├── gateway (Non-service)
-  │   ├── auth
-  │   ├── units
+  │   ├── gateway
+  │   ├── aggregator
+  │   ├── customer
+  │   ├── maintenance
   │   └── ...
   ├── frontend
   ```

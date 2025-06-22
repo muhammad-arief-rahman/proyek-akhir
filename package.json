@@ -14,5 +14,8 @@
     "start-all": "concurrently -k -s cmd \"bun run dev --prefix ./frontend\" \"bun start --prefix ./backends/*\"",
     "dev-all": "concurrently -k -s cmd \"bun run dev --prefix ./frontend\" \"bun dev --prefix ./backends/*\""
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

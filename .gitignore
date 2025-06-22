@@ -1,4 +1,6 @@
 backends
 frontend
+frontend-sveltekit
 node_modules
 bun.lock
+/frontend-sveltekit/src/routes/(layout)/unit-management/upload

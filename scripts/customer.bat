@@ -1,0 +1,1 @@
+cd backends\customer && bun dev
