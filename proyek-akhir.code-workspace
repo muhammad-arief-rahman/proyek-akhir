@@ -1,25 +1,40 @@
 {
 	"folders": [
 		{
+			"name": "proyek-akhir",
 			"path": "."
 		},
 		{
+			"name": "frontend",
 			"path": "frontend"
 		},
 		{
+			"name": "auth",
 			"path": "backends/auth"
 		},
 		{
-			"path": "backends/common"
-		},
-		{
-			"path": "backends/gateway"
-		},
-		{
+			"name": "unit",
 			"path": "backends/unit"
 		},
 		{
+			"name": "customer",
 			"path": "backends/customer"
+		},
+		{
+			"name": "maintenance",
+			"path": "backends/maintenance"
+		},
+		{
+			"name": "aggregator",
+			"path": "backends/aggregator"
+		},
+		{
+			"name": "gateway",
+			"path": "backends/gateway"
+		},
+		{
+			"name": "common",
+			"path": "backends/common"
 		}
 	],
 	"settings": {}

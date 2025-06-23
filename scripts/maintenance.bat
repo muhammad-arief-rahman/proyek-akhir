@@ -1,0 +1,1 @@
+cd backends\maintenance && bun dev
