@@ -33,6 +33,10 @@
 			"path": "backends/gateway"
 		},
 		{
+			"name": "media",
+			"path": "backends/media"
+		},
+		{
 			"name": "common",
 			"path": "backends/common"
 		}
